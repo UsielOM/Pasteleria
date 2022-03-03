@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!--//Es para explicar que es un archivo de estructura //-->
+<html lang="en">
+<!-- //Estandar el lenguaje en ingles // lang de lenguaje // "EN = INGLES"-->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- CARACTERES ESPECIALES UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAKE</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+
+
+<body>
+    <header class="header">
+
+        <nav class="nav">
+
+
+            <!-- <a href="#" class="logo nav-link"> </a> -->
+
+            <button class="logof" style="height:110px; width:200px">
+                <img src="./SRC/TITULO.png"  width="150" height="50">
+               </button>
+
+            <button class="nav-toggle" aria-label="Abrir menu">
+                <i class="gg-menu-oreos"></i>
+               </button>
+
+            <ul class="nav-menu nav-menu_visible">
+
+                <li class="nav-menu-item">
+                    <a href="./nvar.html" class="nav-menu-link nav-link nav-menu-active">Menu </a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./cakemk.html" class="nav-menu-link nav-link nav-menu-active">Crear  </a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#" class="nav-menu-link nav-link .nav-menu-link-active">Informacion </a>
+                </li>
+
+
+            </ul>
+        </nav>
+    </header>
+    <h1 class="center colorfont">Has tu pedido y crea tu pastel</h1><br>
+    <div class="center">
+
+
+        <form action="cakemake.js">
+            <!-- tabla de  contornos-->
+            <h2 class="colorfont">Adornos de crema</h2>
+            <table class="center">
+                <tr>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><img src="./SRC/rosas.jpg" alt="dc1" width="200" height="200"></td>
+                    <td><img src="./SRC/espiral.jpg" alt="dc2" width="200" height="200"></td>
+                    <td><img src="./SRC/punto.jpg" alt="dc3" width="200" height="200"></td>
+
+                </tr>
+                <tr>
+
+                    <td>Contorno estilo rosa $15.00</td>
+
+                    <td>Contorno estilo espiral $15.00</td>
+
+                    <td>Contorno estilo punto $15.00</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="rosa" name="rosa" value="Rosa"></td>
+                    <td><input type="checkbox" id="espiral" name="espiral" value="Espiral"></td>
+                    <td><input type="checkbox" id="punto" name="punto" value="Punto"></td>
+                </tr>
+
+
+            </table>
+
+
+            <hr>
+            <h2 class="colorfont">Adornos de frutas</h2>
+            <!-- tabla de  contornos-->
+            <table class="center">
+                <tr>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><img src="https://i.pinimg.com/564x/69/1d/83/691d83f463380433f5961f4cfaf66c03.jpg" alt="dc4" width="200" height="200"></td>
+                    <td><img src="https://i.pinimg.com/564x/f9/e4/6e/f9e46e64bb94713ff04957d72630ba29.jpg" alt="dc5" width="200" height="200"></td>
+                    <td><img src="https://i.pinimg.com/564x/29/80/d9/2980d9ff47a1fcb9aa215362f71c7b1a.jpg" alt="dc6" width="200" height="200"></td>
+
+                </tr>
+                <tr>
+
+                    <td>Fresa $15.00</td>
+
+                    <td>Durazno $15.00</td>
+
+                    <td>Kiwi $15.00</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="fresa" name="fresa" value="Fresa">cantidad <input type="number" id="fresan" name="fresan"></td>
+                    <td><input type="checkbox" id="durazno" name="durazno" value="Durazno"> cantidad <input type="number" id="duraznon" name="duraznon"></td>
+                    <td> <input type="checkbox" id="kiwi" name="kiwi" value="Kiwi"> cantidad <input type="number" id="kiwin" name="kiwin"></td>
+                </tr>
+
+
+            </table>
+            <a>Maximo 10</a>
+            <hr>
+            <h2 class="colorfont">Sabor de pastel</h2>
+
+            <input type="checkbox" id="fresas" name="fresas" value="Fresas">
+            <label for="aqui"> Sabor fresa $20.00 </label> <br>
+            <input type="checkbox" id="duraznos" name="duraznos" value="Duraznos">
+            <label for="aqui"> Sabor durazno $20.00 </label> <br>
+            <input type="checkbox" id="chocolates" name="chocolates" value="Chocolates">
+            <label for="aqui"> Sabor chocolate $20.00 </label> <br>
+            <hr>
+            <h2 class="colorfont">Tus datos</h2>
+
+            <label for="Nombre">Da tu nombre</label><br>
+            <input type="text" id="Nombre" name="Nombre"><br>
+            <label for="telefono">Telefono</label><br>
+            <input type="number" name="telefono" id="telefono"><br>
+            <label for="email">Correo</label><br>
+            <input type="email" name="email" id="emial"><br>
+            <label for="tiempo1">Fehca y hora de entrega</label> <br>
+            <input type="datetime-local" id="fecha1" name="fecha1"><br> <br>
+            <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea><br> <br>
+
+            <textarea name="dirreccion" rows="10" cols="40">Escribe aquí tus dirección</textarea><br>
+
+
+            <input type="reset">
+            <input type="submit" onclick="alert('Tu pedido a sido resivido')">
+            <br><br>
+        </form>
+
+
+    </div>
+
+
+    <div class="pokeball">
+        <div class="boton"> </div>
+    </div>
+
+
+    <div class="down" style="background-color:#de595e;text-align:center;padding:10px;margin-top:60px;">© Derechos de cake </div>
+
+</body>
+
+</html>
