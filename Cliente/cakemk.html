@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAKE</title>
+    <link rel="stylesheet" href="./cake.css">
+    <link rel="stylesheet" href="./contenedor.css">
+    <link rel="stylesheet" href="./cakemk.css">
+    <script defer src="index.js"></script>
+</head>
+
+
+<header class="header">
+
+    <nav class="nav">
+
+
+        <!-- <a href="#" class="logo nav-link"> </a> -->
+
+        <button class="logof" style="height:110px; width:200px">
+            <img src="./src/TITULO.png"  width="150" height="50" >
+           </button>
+
+        <button class="nav-toggle" aria-label="Abrir menu">
+            <i class="gg-menu-oreos"></i>
+           </button>
+
+        <ul class="nav-menu nav-menu_visible">
+
+            <li class="nav-menu-item">
+                <a href="./pageprincipal.html" class="nav-menu-link nav-link nav-menu-active">Inicio </a>
+            </li>
+            <li class="nav-menu-item">
+                <a href="./cakemk.html" class="nav-menu-link nav-link nav-menu-active">Crear  </a>
+            </li>
+            <li class="nav-menu-item">
+                <a href="./info.html" class="nav-menu-link nav-link .nav-menu-link-active">Informacion </a>
+            </li>
+
+
+        </ul>
+    </nav>
+</header>
+
+<body class="bodyco">
+    <form action="cakemk.js">
+
+
+        <h1 class="centrartextos titulotxt">Crea tu pastel</h1><br>
+
+        <section class="containermk">
+
+            <div class="cardmk">
+                <div class="cardmk-image card-1 "> </div>
+                <div class="centrartextos">
+                    <h2>Decorador Margen</h2>
+
+                    <p>Corazon</p>
+                    <br>
+
+                    <input type="checkbox" id="corazon" name="corazon" value="Corazon">15 $
+
+                </div>
+            </div>
+            <div class="cardmk">
+                <div class="cardmk-image card-2"> </div>
+                <div class="centrartextos">
+                    <h2>Decorador Margen</h2>
+
+                    <p>Corona</p>
+                    <br>
+
+                    <input type="checkbox" id="corona" name="corona" value="corona">15 $
+                </div>
+            </div>
+            <div class="cardmk">
+                <div class="cardmk-image card-3"> </div>
+                <div class="centrartextos">
+                    <h2>Decorador Margen</h2>
+
+                    <p>Rosa</p>
+                    <br>
+
+                    <input type="checkbox" id="rosa" name="rosa" value="Rosa">15 $
+
+                </div>
+            </div>
+
+
+        </section>
+        <h2 class="centrartextos titulotxt">Adornos frutales</h2><br>
+        <section class="containermk">
+
+            <div class="cardmk">
+                <div class="cardmk-image card-4 "> </div>
+                <div class="centrartextos">
+                    <h2>Decorador Frutal</h2>
+
+                    <p>Freza</p><br>
+
+                    <input type="checkbox" id="fresa" name="fresa" value="Fresa">6$ x Pieza <br>cantidad<br> <input type="number" id="fresan" name="fresan"><br> Limite 20
+
+                </div>
+            </div>
+            <div class="cardmk">
+                <div class="cardmk-image card-5"> </div>
+                <div class="centrartextos">
+                    <h2>Decorador Frutal</h2>
+
+                    <p>Durazno</p><br>
+
+                    <input type="checkbox" id="durazno" name="durazno" value="Durazno">6$ x Pieza <br> cantidad <input type="number" id="duraznon" name="duraznon"><br> Limite 20
+                </div>
+            </div>
+            <div class="cardmk">
+                <div class="cardmk-image card-6"> </div>
+                <div class="centrartextos">
+                    <h2>Decorador Frutal</h2>
+
+                    <p>Kiwi</p><br>
+
+                    <input type="checkbox" id="kiwi" name="kiwi" value="Kiwi">6$ x Pieza <br>cantidad<br><input type="number" id="kiwin" name="kiwin"><br>Limite 20
+
+                </div>
+            </div>
+
+
+
+        </section>
+        <h2 class="centrartextos titulotxt">Sabor de pastel</h2>
+        <section class="containermk">
+
+            <div class="cardmk">
+                <div class="cardmk-image card-7 "> </div>
+                <div class="centrartextos">
+                    <h2>Sabor del pastel</h2>
+
+                    <p>Freza</p>
+
+                    <input type="checkbox" id="fresas" name="fresas" value="Fresas">50$
+
+                </div>
+            </div>
+            <div class="cardmk">
+                <div class="cardmk-image card-8"> </div>
+                <div class="centrartextos">
+                    <h2>Sabor del Pastel</h2>
+
+                    <p>Durazno</p>
+
+                    <input type="checkbox" id="duraznos" name="duraznos" value="Duraznos">50$
+                </div>
+            </div>
+            <div class="cardmk ">
+                <div class="cardmk-image card-9"> </div>
+                <div class="centrartextos">
+                    <h2>Sabor del Pastel</h2>
+
+                    <p>Chocolate</p>
+
+                    <input type="checkbox" id="chocolates" name="chocolates" value="Chocolates">50$
+
+                </div>
+            </div>
+
+        </section>
+        <h2 class="centrartextos titulotxt"> Forma del pastel</h2><br>
+        <section class="containermk">
+
+            <div class="cardmk">
+                <div class="cardmk-image card-10 "> </div>
+                <div class="centrartextos">
+                    <h2>Forma del Pastel</h2>
+
+                    <p>Circular</p><br>
+
+                    <input type="checkbox" id="fresas" name="fresas" value="Fresas">50$
+
+                </div>
+            </div>
+            <div class="cardmk">
+                <div class="cardmk-image card-11"> </div>
+                <div class="centrartextos">
+                    <h2>Forma del Pastel</h2>
+
+                    <p>Cuadrado</p><br>
+
+                    <input type="checkbox" id="duraznos" name="duraznos" value="Duraznos">50$
+                </div>
+            </div>
+
+
+
+        </section>
+        <h2 class="titulotxt centrartextos">Tus datos</h2><br>
+        <section class="containermkinf">
+
+            <div class="cardmkinfo centrartextos">
+
+                <div class="datos">
+                    <label for="Nombre">Da tu nombre</label><br>
+                    <input type="text" id="Nombre" name="Nombre"><br>
+                    <label for="telefono">Telefono</label><br>
+                    <input type="number" name="telefono" id="telefono"><br>
+                    <label for="email">Correo</label><br>
+                    <input type="email" name="email" id="emial"><br>
+                    <label for="tiempo1">Fehca y hora de entrega</label> <br>
+                    <input type="datetime-local" id="fecha1" name="fecha1"><br> <br>
+                    <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea><br> <br>
+
+                    <textarea name="dirreccion" rows="10" cols="40">Escribe aquí tus dirección</textarea><br>
+
+
+                    <input type="reset">
+                    <input type="submit" onclick="alert('Tu pedido a sido resivido')">
+
+                </div>
+            </div>
+
+
+            <br><br>
+        </section>
+
+
+    </form>
+
+
+</body>
+
+</html>

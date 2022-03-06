@@ -1,0 +1,43 @@
+    .cont {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cardd {
+        background: rgba(0, 0, 0, 0.3);
+        width: 700px;
+        height: 600px;
+        margin: 10px;
+        border-radius: 50px;
+        justify-content: center;
+    }
+    
+    .cardt {
+        background-color: #c60066;
+        height: 90px;
+        width: 700px;
+        margin-bottom: 20px;
+        border-radius: 50px 50px 0% 0%;
+    }
+    
+    .txtinfo {
+        text-align: justify;
+        color: white;
+        font-size: 25px;
+        line-height: 60px;
+        padding-left: 15px;
+    }
+    
+    .prueba {
+        display: flex;
+        justify-content: right;
+        height: 100vh;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .titulocentro {
+        text-align: center;
+        padding-top: 35px;
+        color: white;
+    }

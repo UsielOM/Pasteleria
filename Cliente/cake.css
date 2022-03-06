@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-image: url("./src/Fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 90px 20px 0;
+}
+
+.header {
+    background-color: #f9128f;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(249, 18, 143, 0.7);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+    background: none;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.logof {
+    padding: 0 60px;
+    line-height: 100px;
+    background: none;
+    border: none;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link-active {
+    background-color: #e66c5d;
+    transition: 0.5s;
+}
+
+.nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+    /*para que no se vea en pantalla completa*/
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 70px;
+    }
+    .header {
+        height: 60px;
+        background-color: #f9128f;
+    }
+    .logo {
+        font-size: 25px;
+        padding: 0 20px;
+        line-height: 60px;
+    }
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        background: rgba(249, 18, 143, 0.7);
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100% - 60);
+        overflow-y: auto;
+        /*para barra de escrol cuando lo necesite*/
+        left: 100%;
+        transition: left 0.3s;
+    }
+    .nav-menu-item {
+        line-height: 70px;
+    }
+    .nav-menu-link:hover,
+    .nav-menu-link-active {
+        background: none;
+        color: #eadaa2;
+    }
+    .nav-toggle {
+        display: block;
+    }
+    .nav-menu_visible {
+        left: 0%;
+    }
+    .center {
+        flex-direction: column;
+    }
+}
+
+
+/* FIGURAS */
+
+.gg-menu-oreos {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 18px;
+    transform: scale(var(--ggs, 1))
+}
+
+.gg-menu-oreos::after,
+.gg-menu-oreos::before {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    display: block;
+    width: 16px;
+    height: 8px;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-radius: 3px
+}
+
+.gg-menu-oreos::after {
+    bottom: 0
+}
+
+
+/* TARJETAS */
+
+.Container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Containersec {
+    display: flex;
+    justify-content: right;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: wheat;
+    border-radius: 1rem;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+    display: flex;
+    margin: 1.5;
+    overflow: hidden;
+    width: 30rem;
+    height: 19rem;
+}
+
+.card h6 {
+    opacity: 0.9;
+    letter-spacing: 0.2vh;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+}
+
+.card h2 {
+    letter-spacing: .1rem;
+    margin: 1rem;
+    color: black;
+}
+
+.left-column {
+    padding: 2rem;
+    max-width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background1-left-column {
+    background-color: #f9128f;
+}
+
+.left-column h2 {
+    color: white;
+}
+
+.right-column {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.right-column p {
+    font-size: .9rem;
+    color: #f9128f;
+    text-align: justify;
+}
+
+.button {
+    border-radius: 3rem;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+    color: white;
+    font-size: 1.2rem;
+    padding: .8rem 1.5rem;
+    letter-spacing: .1rem;
+    align-self: flex-end;
+}
+
+.contenedors {
+    position: fixed;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 100px;
+}
+
+.a {
+    color: white;
+    text-decoration-line: none;
+}

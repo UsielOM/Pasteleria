@@ -1,0 +1,16 @@
+table,
+td,
+th {
+    border: 5px solid #f9128f;
+    border-collapse: collapse;
+    background: wheat;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+}

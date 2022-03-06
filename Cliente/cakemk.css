@@ -1,0 +1,119 @@
+.bodyco {
+    background-color: #ff8ba8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 90px 20px 0;
+}
+
+.containermk {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardmk {
+    background: white;
+    width: 380px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.cardmk-image {
+    width: 175px;
+    background-size: cover;
+    border-radius: 6% 0% 0% 6%;
+}
+
+.card-1 {
+    background-image: url('./src/corazon.jpg');
+}
+
+.card-2 {
+    background-image: url('./src/corona.jpg');
+}
+
+.card-3 {
+    background-image: url('./src/espiral.jpg');
+}
+
+.card-4 {
+    background-image: url('https://i.pinimg.com/564x/69/1d/83/691d83f463380433f5961f4cfaf66c03.jpg');
+}
+
+.card-5 {
+    background-image: url('https://i.pinimg.com/564x/f9/e4/6e/f9e46e64bb94713ff04957d72630ba29.jpg');
+}
+
+.card-6 {
+    background-image: url('https://i.pinimg.com/564x/29/80/d9/2980d9ff47a1fcb9aa215362f71c7b1a.jpg');
+}
+
+.card-7 {
+    background-color: #f91e55;
+}
+
+.card-8 {
+    background-color: #ffb678;
+}
+
+.card-9 {
+    background-color: #45322e;
+}
+
+.card-10 {
+    background-image: url('https://cakerstreet1.s3.amazonaws.com/images/white-icing-cake-14392-500-500.webp');
+}
+
+.card-11 {
+    background-image: url('https://i.pinimg.com/564x/0d/cf/b9/0dcfb943949e9926038dba1db061384f.jpg');
+}
+
+.centrartextos {
+    text-align: center;
+    justify-content: center;
+}
+
+.cardmk:hover {
+    background-color: wheat;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.cardmk h2,
+p {
+    padding-top: 25px;
+    color: black;
+    letter-spacing: 0.2vh;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    line-height: 18px;
+}
+
+.titulotxt {
+    color: white;
+}
+
+.containermkinf {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.datos {
+    padding-top: 15px;
+}
+
+.cardmkinfo {
+    background: wheat;
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+    display: flex;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
